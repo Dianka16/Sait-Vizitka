@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>сайт-визитка</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container container_header">
+			<img class="logo" src="img/image4.png">
+			<nаv class="nav">
+				<ul class="nаv__list">
+					<li class="nav__item">
+						<a class="nav__link" href="#hero-block">Главная</a>
+				</li>
+					<li class="nav__item">
+						<a class="nav__link" href="about.html">Об игре</a>
+				</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#video">Видео</a>
+				</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#gallery">Галерея</a>
+					</li>
+				</ul>
+			</nаv>
+		</div>
+	</header>
+<main class="main">
+	<section class="hero-block" id="hero-block">
+		<div class="container container_hero-block">
+			<img class="hero-block__img" src="img/img.png">
+			<div class="hero-block__content">
+			<h1 class="hero-block__title">Genshin Impact</h1>
+			<a class="hero-block__link" href="#">Скачать игру</a>
+
+			</div>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="container container_about">
+			<h2 class="about__title">Об игре</h2>
+			<div class="about__content">
+				<p class="about__text">Приключенческая игра с открытым миром. Это означает, что на той стороне реки или горы вас ожидает новый, восхитительный пейзаж, нужно лишь разумно расходовать силы. Если вам повстречается блуждающая фея или странный механизм, дерзните и попробуйте разгадать их тайну. Но что они сулят — беду или приятный сюрприз — сможете узнать только вы!</p>
+				<img class="about__img" src="img/image3.png">
+			</div>
+		</div>
+	</section>
+	<section class="video" id="video">
+		<div class="container container_video">
+			<h2 class="video__title">Видео</h2>
+			<iframe class="video__video" width="560" height="315" src="https://www.youtube.com/embed/J7gnFCdZNmU?si=fURwePyntYohinrd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div> 
+	</section>
+	<section class="gallery" id="gallery">
+		<h2 class="gallery__title">Галерея</h2>
+		<ul class="gallery__list">
+			<li class="gallery__item">
+				<a href="img/image1.png" class="lightzoom gallery__link">
+					<img class="gallery__img" src="img/image1.png">
+				</a>
+			</li>
+			<li class="gallery__item">
+				<a href="img/img2.png" class="lightzoom gallery__link">
+					<img class="gallery__img" src="img/img2.png">
+				</a>
+			</li>
+			<li class="gallery__item">
+				<a href="img/img4.png" class="lightzoom gallery__link">
+					<img class="gallery__img" src="img/img4.png">
+				</a>
+			</li>
+			<li class="gallery__item">
+				<a href="img/image2.png" class="lightzoom gallery__link">
+					<img class="gallery__img" src="img/image2.png">
+				</a>
+			</li>
+			<li class="gallery__item">
+				<a href="img/image2.png" class="lightzoom gallery__link">
+					<img class="gallery__img" src="img/image2.png">
+				</a>
+			</li>
+		</ul>
+	</section>
+</main>
+<footer class="footer">
+	<div class="container container_footer">
+		<div class="footer__content">
+			<h3 class="footer__title">Новикова Диана</h3>
+			<p class="footer__text">&copy; 2024.Все права защищены мной.</p>
+		</div>
+		<ul class="footer__list">
+			<li class="footer__item">
+				<a class="footer__link">
+					<img class="footer__img" src="img/telegram.png" href=" " >
+				</a>
+			</li>
+			<li class="footer__item">
+				<a class="footer__link" href="https://vk.com/vzlomka14" target=_blank>
+					<img class="footer__img" src="img/vk.png">
+				</a>
+			</li>
+		</ul>
+	</div>	
+</footer>
+
+<script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+	<script type="text/javascript">
+jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+</script>
+</body>
+</html>
